@@ -8,6 +8,9 @@ function examGrader() {
         if (mainDegree >= 50 && mainDegree < 65) {
             console.log(`your degree is ${mainDegree} and your rate is " D "`)
         }
+        else if (mainDegree < 50) {
+            console.log(`you are a failure and your degree is ${mainDegree} and your rate is  " F "`)
+        }
         else if (mainDegree >= 65 && mainDegree < 75) {
             console.log(`your degree is ${mainDegree} and your rate is " C "`)
         }
