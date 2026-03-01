@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inch-To-Meter Converter</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1>Inch-To-Meter Converter</h1>
+
+        <div class="field">
+            <label for="inchesInput">Number Of Inches:</label>
+            <input type="number" class="inchesInput" placeholder="Enter number of inches here" step="any" min="0" />
+        </div>
+
+        <div class="error-box error"></div>
+
+        <button onclick="clickTocalculate()" class="calcBtn">Calculate</button>
+
+        <div class="result-box empty result">
+            The result will appear here
+        </div>
+    </div>
+
+</body>
+<script src="./master.js"></script>
+
+</html>
